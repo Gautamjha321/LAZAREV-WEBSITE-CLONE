@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAZAREV. 🪀 — Digital Product Design Agency | Award Winning UX & UI Agency</title>
+    <link rel="shortcut icon" href="https://assets-global.website-files.com/64a2ab71942e1d57feb6fe39/6528221f95333ff155d01ad2_fav.gif" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- Modern font imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">LAZAREV<span class="dot">.</span></div>
+            <div class="preloader-progress">
+                <div class="preloader-bar"></div>
+            </div>
+            <div class="preloader-text">Loading Experience</div>
+        </div>
+    </div>
+
+    <!-- Custom cursor -->
+    <div class="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+        <div class="cursor-text"></div>
+    </div>
+
+    <!-- Noise overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <h1>LAZAREV<span class="dot">.</span></h1>
+            <div class="mobile-close">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-item">
+                <h3>Case Studies</h3>
+            </div>
+            <div class="mobile-menu-item">
+                <h3>Areas of Expertise</h3>
+            </div>
+            <div class="mobile-menu-item">
+                <h3>UIUX Design</h3>
+            </div>
+            <div class="mobile-menu-item">
+                <h3>Product Design</h3>
+            </div>
+            <div class="mobile-menu-item">
+                <h3>Design Process</h3>
+            </div>
+            <div class="mobile-menu-item">
+                <h3>About Agency</h3>
+            </div>
+        </div>
+        <div class="mobile-menu-footer">
+            <button class="btn-primary">Let's Talk 
+                <svg fill="none" viewBox="0 0 20 20">
+                    <path fill="currentColor" d="M2.5 14.375V17.5h3.125l9.217-9.217-3.125-3.125L2.5 14.375Zm14.758-8.508a.83.83 0 0 0 0-1.175l-1.95-1.95a.83.83 0 0 0-1.175 0l-1.525 1.525 3.125 3.125 1.525-1.525Z">
+                    </path>
+                </svg>
+            </button>
+            <div class="social-links">
+                <a href="#" class="social-link" data-cursor-text="Dribbble"><i class="ri-dribbble-line"></i></a>
+                <a href="#" class="social-link" data-cursor-text="Instagram"><i class="ri-instagram-line"></i></a>
+                <a href="#" class="social-link" data-cursor-text="Twitter"><i class="ri-twitter-x-line"></i></a>
+                <a href="#" class="social-link" data-cursor-text="LinkedIn"><i class="ri-linkedin-line"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <h1>LAZAREV<span class="dot">.</span></h1>
+        <div class="nav-part2">
+            <div class="nav-elem">
+                <h4>Case Studies</h4>
+                <div class="dropdown-content">
+                    <h5><span>Case Studies</span></h5>
+                </div>
+            </div>
+            <div class="nav-elem">
+                <h4>Areas of expertise</h4>
+                <div class="dropdown-content">
+                    <h5><span>AI & ML</span></h5>
+                    <h5><span>Fintech</span></h5>
+                    <h5><span>Real Estate</span></h5>
+                    <h5><span>E-commerce</span></h5>
+                    <h5><span>Web 3</span></h5>
+                </div>
+            </div>
+            <div class="nav-elem">
+                <h4>UIUX Design</h4>
+                <div class="dropdown-content">
+                    <h5><span>Fintech</span></h5>
+                    <h5><span>Real Estate</span></h5>
+                    <h5><span>E-commerce</span></h5>
+                    <h5><span>Web 3</span></h5>
+                </div>
+            </div>
+            <div class="nav-elem">
+                <h4>Product design</h4>
+                <div class="dropdown-content">
+                    <h5><span>Fintech</span></h5>
+                    <h5><span>Real Estate</span></h5>
+                    <h5><span>E-commerce</span></h5>
+                    <h5><span>Web 3</span></h5>
+                </div>
+            </div>
+            <div class="nav-elem">
+                <h4>Design Process</h4>
+                <div class="dropdown-content">
+                    <h5><span>E-commerce</span></h5>
+                    <h5><span>Web 3</span></h5>
+                </div>
+            </div>
+            <div class="nav-elem">
+                <h4>About Agency</h4>
+                <div class="dropdown-content">
+                    <h5><span>Fintech</span></h5>
+                    <h5><span>Real Estate</span></h5>
+                    <h5><span>Web 3</span></h5>
+                </div>
+            </div>
+        </div>
+        <button class="btn-primary">Let's Talk 
+            <svg fill="none" viewBox="0 0 20 20">
+                <path fill="currentColor" d="M2.5 14.375V17.5h3.125l9.217-9.217-3.125-3.125L2.5 14.375Zm14.758-8.508a.83.83 0 0 0 0-1.175l-1.95-1.95a.83.83 0 0 0-1.175 0l-1.525 1.525 3.125 3.125 1.525-1.525Z">
+                </path>
+            </svg>
+        </button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="nav-bottom"></div>
+    </nav>
+
+    <div id="main" data-scroll-container>
+        <div id="page1" data-scroll-section>
+            <div class="hero-background">
+                <div class="gradient-sphere"></div>
+                <div class="particles-container"></div>
+            </div>
+            <h1 class="split-text">AI & ML PR<span class="svg-container"><svg class="c-bttn__morph" fill="none" viewBox="0 0 131 136">
+                        <path class="g-path" data-morph="end" fill="#fff"
+                            d="M48 77.457v7.224h7.224l21.307-21.306-7.224-7.225L48 77.457Zm34.118-19.67a1.919 1.919 0 0 0 0-2.716l-4.508-4.508a1.919 1.919 0 0 0-2.716 0l-3.526 3.526 7.224 7.224 3.526-3.525Z">
+                        </path>
+                        <path class="g-path" data-morph="start" fill="#fff"
+                            d="M48 77.457v7.224h7.224l21.307-21.306-7.224-7.225L48 77.457Zm34.118-19.67a1.919 1.919 0 0 0 0-2.716l-4.508-4.508a1.919 1.919 0 0 0-2.716 0l-3.526 3.526 7.224 7.224 3.526-3.525Z"
+                            data-original="M65.72 109.14c10.08 0 17.76-3.78 23.04-11.34 5.4-7.68 8.1-17.64 8.1-29.88 0-12.24-2.7-22.2-8.1-29.88-5.28-7.68-12.96-11.52-23.04-11.52-9.96 0-17.7 3.84-23.22 11.52-5.4 7.68-8.1 17.64-8.1 29.88 0 12.12 2.7 22.02 8.1 29.7 5.52 7.68 13.26 11.52 23.22 11.52Zm46.08 7.02c-11.64 12.6-27.06 18.9-46.26 18.9s-34.62-6.3-46.26-18.9C7.76 103.56 2 87.48 2 67.92c0-19.56 5.76-35.64 17.28-48.24C30.92 7.08 46.34.78 65.54.78s34.62 6.3 46.26 18.9c11.64 12.6 17.46 28.68 17.46 48.24 0 19.56-5.82 35.64-17.46 48.24Z">
+                        </path>
+                    </svg></span>duct</h1>
+            <h1 class="split-text">DESIGN Agency</h1>
+            <p class="reveal-text">We partner with AI &amp; ML&nbsp;businesses, guiding them from series A <br>to series D and beyond with
+                our expertise in </p>
+            <div id="page1-something" class="reveal-text">
+                <h4>Brand design</h4>
+                <h4>User Experience</h4>
+                <h4>and</h4>
+                <h4>Digital product design</h4>.
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+                <span>Scroll to explore</span>
+            </div>
+            <div id="moving-div">
+                <div id="blur-left"></div>
+                <div class="move">
+                    <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt="Forbes">
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="Adweek">
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt="PMI">
+                    <img src="https://lazarev.kiev.ua/la24/wf.svg" alt="WF">
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="Adweek">
+                    <img src="https://lazarev.kiev.ua/la24/rd.svg" alt="RD">
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt="PMI">
+                    <img src="https://lazarev.kiev.ua/la24/webby.svg" alt="Webby">
+                </div>
+                <div class="move">
+                    <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt="Forbes">
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="Adweek">
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt="PMI">
+                    <img src="https://lazarev.kiev.ua/la24/wf.svg" alt="WF">
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="Adweek">
+                    <img src="https://lazarev.kiev.ua/la24/rd.svg" alt="RD">
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt="PMI">
+                    <img src="https://lazarev.kiev.ua/la24/webby.svg" alt="Webby">
+                </div>
+                <div id="blur-right"></div>
+            </div>
+        </div>
+
+        <div id="page2" data-scroll-section>
+            <div class="section-header" data-scroll data-scroll-speed="1">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Insights</h2>
+            </div>
+            <div id="page2-left" data-scroll data-scroll-speed="0.5">
+                <p>Exclusive insights into <br>UI/UX and product design</p>
+                <h5>Being a design studio at the forefront of digital transformation and product design, we take it upon
+                    ourselves to drop some knowledge, share insights, let out insider tips, and put our work on full
+                    display</h5>
+            </div>
+            <div id="page2-right">
+                <div class="right-elem" id="right-elem1" data-scroll data-scroll-speed="0.2">
+                    <div class="article-tag">UI/UX Design</div>
+                    <h2>How to Design An AI Interface Users will <br>Trust in 2024?</h2>
+                    <div class="article-meta">
+                        <span class="article-date">May 15, 2024</span>
+                        <span class="article-read">5 min read</span>
+                    </div>
+                    <img src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+                        alt="AI Interface Design">
+                </div>
+                <div class="right-elem" data-scroll data-scroll-speed="0.3">
+                    <div class="article-tag">Product Design</div>
+                    <h2>The Evolution of Design Systems: <br>Beyond Component Libraries</h2>
+                    <div class="article-meta">
+                        <span class="article-date">April 28, 2024</span>
+                        <span class="article-read">7 min read</span>
+                    </div>
+                    <img src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+                        alt="Design Systems">
+                </div>
+                <div class="right-elem" data-scroll data-scroll-speed="0.4">
+                    <div class="article-tag">Case Study</div>
+                    <h2>Reimagining Financial Experiences: <br>A Fintech Case Study</h2>
+                    <div class="article-meta">
+                        <span class="article-date">April 10, 2024</span>
+                        <span class="article-read">8 min read</span>
+                    </div>
+                    <img src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+                        alt="Fintech Case Study">
+                </div>
+                <div class="right-elem" data-scroll data-scroll-speed="0.5">
+                    <div class="article-tag">Design Trends</div>
+                    <h2>Emerging UI Trends That Will Shape <br>Digital Products in 2024</h2>
+                    <div class="article-meta">
+                        <span class="article-date">March 22, 2024</span>
+                        <span class="article-read">6 min read</span>
+                    </div>
+                    <img src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+                        alt="UI Trends">
+                </div>
+            </div>
+        </div>
+
+        <div id="page3" data-scroll-section>
+            <div class="section-header" data-scroll data-scroll-speed="1">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Showreel</h2>
+            </div>
+            <video src="https://lazarev.kiev.ua/la24/la-reel--min.mp4" data-scroll data-scroll-speed="-0.3"></video>
+            <div class="page3-center" data-cursor-class="play">
+                <div class="icon">
+                    <i class="ri-play-fill"></i>
+                </div>
+                <h5>Watch Showreel</h5>
+            </div>
+        </div>
+
+        <div id="page4" data-scroll-section>
+            <div class="section-header" data-scroll data-scroll-speed="1">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Case Studies</h2>
+            </div>
+            <div class="section" data-scroll data-scroll-speed="0.2">
+                <div class="sec-left">
+                    <div class="case-number">01</div>
+                    <h2>Accern. Rhea</h2>
+                    <p>Transforming complex financial data analysis into an intuitive AI-powered platform that empowers financial professionals to make data-driven decisions with confidence and precision.</p>
+                    <a href="#" class="case-link">View Case Study <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="sec-right" data-cursor-text="View Case">
+                    <div class="case-tag">AI & Fintech</div>
+                    <img src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65a93ac90b586168e5917ac8_Rhea%20-%20cover_horizontal_low.webp"
+                        alt="Accern Rhea">
+                    <video muted src="./accern-rhea-cover-big.mp4"></video>
+                </div>
+            </div>
+            <div class="section" data-scroll data-scroll-speed="0.2">
+                <div class="sec-left">
+                    <div class="case-number">02</div>
+                    <h2>AfroTech</h2>
+                    <p>Creating a digital platform that celebrates Black excellence in technology, fostering community connections and providing resources for the next generation of tech innovators and entrepreneurs.</p>
+                    <a href="#" class="case-link">View Case Study <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="sec-right" data-cursor-text="View Case">
+                    <div class="case-tag">Community Platform</div>
+                    <img src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65cb66041ce86ac3784aaba1_Afrotech%20-%20cover_horizontal.webp"
+                        alt="AfroTech">
+                    <video muted src="https://lazarev.kiev.ua/cases/la24/afrotech-cover-big.mp4"></video>
+                </div>
+            </div>
+        </div>
+
+        <div id="page5" data-scroll-section>
+            <div class="section-header" data-scroll data-scroll-speed="1">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Services</h2>
+            </div>
+            <button class="btn-primary sticky-btn" data-scroll data-scroll-sticky data-scroll-target="#page5">Become a Client
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div id="page5-right">
+                <p data-scroll data-scroll-speed="0.3"><span></span>We lead your startup at every step of its <span></span>growth, providing unparalleled
+                    personal service at every interaction. Whether it's launching an MVP, revamping an existing product,
+                    securing funding with UI prototypes, increasing customer engagement, or boosting conversions, we
+                    develop a suite of custom-tailored design services to fulfill your expectations.</p>
+                <div id="page5-content">
+                    <div class="uiux">
+                        <details open>
+                            <summary>
+                                <h1>UI/UX Design</h1>
+                                <div id="flex">
+                                    <h4>UX Audit</h4>
+                                    <h4>UI Design</h4>
+                                    <h4>UX Design</h4>
+                                    <h4>UX Research</h4>
+                                </div>
+                            </summary>
+                            <div id="page-container">
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>UX Research</h3>
+                                    <p>Comprehensive user research to uncover insights about your target audience, their behaviors, needs, and pain points. We employ a variety of methodologies including user interviews, surveys, usability testing, and competitive analysis to inform design decisions.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>UX Design</h3>
+                                    <p>Strategic user experience design focused on creating intuitive, efficient, and delightful interactions. We develop user flows, information architecture, wireframes, and interactive prototypes that prioritize usability while aligning with business objectives.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>UI Design</h3>
+                                    <p>Visually stunning interface design that brings your brand to life through carefully crafted visual elements. We create cohesive design systems, component libraries, and pixel-perfect screens that balance aesthetic appeal with functional clarity.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>UX Audit</h3>
+                                    <p>Thorough evaluation of your existing digital product to identify usability issues, conversion barriers, and improvement opportunities. Our expert analysis provides actionable recommendations prioritized by impact and implementation effort.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="product">
+                        <details>
+                            <summary>
+                                <h1>Product Design</h1>
+                                <div id="flex">
+                                    <h4>Product Strategy</h4>
+                                    <h4>MVP Design</h4>
+                                    <h4>Design Systems</h4>
+                                    <h4>Prototyping</h4>
+                                </div>
+                            </summary>
+                            <div id="page-container">
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>Product Strategy</h3>
+                                    <p>Strategic product planning that aligns business goals with user needs. We help define your product vision, roadmap, and key features through collaborative workshops, market analysis, and opportunity assessment.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>MVP Design</h3>
+                                    <p>Focused design for minimum viable products that deliver core value while setting the foundation for future growth. We identify essential features, create streamlined user flows, and design interfaces that validate your concept with real users.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>Design Systems</h3>
+                                    <p>Comprehensive design systems that ensure consistency, scalability, and efficiency across your digital products. We create reusable components, establish design principles, and document guidelines that empower your team.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>Prototyping</h3>
+                                    <p>Interactive prototypes that bring your product vision to life before development. We create high-fidelity prototypes with realistic interactions and animations that can be used for user testing, stakeholder presentations, or investor pitches.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="product">
+                        <details>
+                            <summary>
+                                <h1>Brand Design</h1>
+                                <div id="flex">
+                                    <h4>Brand Identity</h4>
+                                    <h4>Visual Language</h4>
+                                    <h4>Brand Guidelines</h4>
+                                    <h4>Digital Branding</h4>
+                                </div>
+                            </summary>
+                            <div id="page-container">
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>Brand Identity</h3>
+                                    <p>Distinctive brand identities that capture your company's essence and resonate with your target audience. We develop logos, color palettes, typography, and visual elements that express your unique positioning.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>Visual Language</h3>
+                                    <p>Cohesive visual systems that communicate your brand story across all touchpoints. We create illustration styles, photography direction, iconography, and graphic elements that reinforce your brand identity.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>Brand Guidelines</h3>
+                                    <p>Comprehensive documentation that ensures consistent brand application. We develop detailed guidelines covering logo usage, color specifications, typography rules, voice and tone, and application examples.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                                <div class="page5-elem" data-cursor-class="view">
+                                    <div class="over"></div>
+                                    <h3>Digital Branding</h3>
+                                    <p>Brand expressions optimized for digital environments. We create responsive logos, social media assets, email templates, and digital marketing materials that maintain brand integrity across platforms.</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer data-scroll-section>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h2>Ready to create<br>something<br>extraordinary?</h2>
+                    <a href="#" class="btn-primary footer-cta">
+                        Let's Talk
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-nav">
+                        <div class="footer-col">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#">UI/UX Design</a></li>
+                                <li><a href="#">Product Design</a></li>
+                                <li><a href="#">Brand Design</a></li>
+                                <li><a href="#">Design Systems</a></li>
+                                <li><a href="#">UX Research</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="#">Insights</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Connect</h4>
+                            <ul class="social-links">
+                                <li><a href="#" class="social-link" data-cursor-text="Dribbble"><i class="ri-dribbble-line"></i> Dribbble</a></li>
+                                <li><a href="#" class="social-link" data-cursor-text="Instagram"><i class="ri-instagram-line"></i> Instagram</a></li>
+                                <li><a href="#" class="social-link" data-cursor-text="Twitter"><i class="ri-twitter-x-line"></i> Twitter</a></li>
+                                <li><a href="#" class="social-link" data-cursor-text="LinkedIn"><i class="ri-linkedin-line"></i> LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© 2024 LAZAREV. All rights reserved.</p>
+                        <div class="footer-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cookies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.3/umd/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
