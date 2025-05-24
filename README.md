@@ -10,8 +10,8 @@ This project is a frontend clone of the visually rich and interactive Lazarev Ag
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live site](https://your-live-demo-link.com)  
-👉 [GitHub Repository](https://github.com/your-username/lazarev-agency-clone)
+👉 [Click here to view the live site](https://lazarev-website-clone-six.vercel.app/)  
+👉 [GitHub Repository](https://github.com/Gautamjha321/LAZAREV-WEBSITE-CLONE/tree/main)
 
 ## 🛠️ Technologies Used
 
@@ -49,13 +49,13 @@ lazarev-agency-clone/
 ## 📷 Screenshots
 
 ![Desktop Screenshot](assets/screenshots/desktop.png)  
-![Mobile Screenshot](assets/screenshots/mobile.png)
+
 
 ## 🙌 Author
 
 👤 **Gautam Kumar Jha**  
-🔗 [LinkedIn](https://linkedin.com/in/gautamkumjha)  
-🐙 [GitHub](https://github.com/gautamkumjha)
+🔗 [LinkedIn](https://www.linkedin.com/in/gautam-jha-77111634b/)  
+🐙 [GitHub](https://github.com/Gautamjha321)
 
 ---
 
