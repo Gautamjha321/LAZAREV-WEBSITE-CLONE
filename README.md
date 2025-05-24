@@ -48,7 +48,7 @@ lazarev-agency-clone/
 
 ## 📷 Screenshots
 
-![Desktop Screenshot](assets/screenshots/desktop.png)  
+![Desktop Screenshot](image.png)  
 
 
 ## 🙌 Author
